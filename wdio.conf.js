@@ -35,9 +35,13 @@ exports.config = {
         logout: [
             projectPath.join(process.cwd(),'./test/specs/logout/*.js')
         ],
+        trading: [
+            projectPath.join(process.cwd(),'./test/specs/trading/*.js')
+        ],
         regression: [
             './test/specs/login/*.js',
-            '../test/specs/logout/*.js'
+            './test/specs/logout/*.js',
+            './test/specs/trading/*.js'
         ]
     },
     // Patterns to exclude.
