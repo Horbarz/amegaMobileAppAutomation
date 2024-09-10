@@ -24,17 +24,17 @@ git clone https://github.com/Horbarz/amegaMobileAppAutomation.git
 cd amegaMobileAppAutomation
 ```
 
-2. Install the dependencies:
+### 2. Install the dependencies:
 ```bash
 npm install
 ```
 
-3. Verify ADB Device Connection
+### 3. Verify ADB Device Connection
 ```bash
 adb devices
 ```
 
-4. Check for Installed Appium Drivers
+### 4. Check for Installed Appium Drivers
 ```bash
 appium driver list --installed
 ```
@@ -43,15 +43,13 @@ If the required drivers are not installed, install them using:
 appium driver install uiautomator2
 ```
 
-5. Set Up Environment Variables
+### 5. Set Up Environment Variables
 ```bash
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$PATH
 ```
 
-**Connecting**
-
-**Running the Tests**
+### 6. Running the Tests
 To run the automated tests, follow these steps:
 
 **Run Test Suite**
