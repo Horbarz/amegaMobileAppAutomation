@@ -42,9 +42,8 @@ exports.config = {
             projectPath.join(process.cwd(),'./test/specs/createAccount/*.js')
         ],
         regression: [
-            './test/specs/login/*.js',
-            './test/specs/logout/*.js',
-            './test/specs/trading/*.js'
+            projectPath.join(process.cwd(),'./test/specs/createAccount/*.js'),
+            projectPath.join(process.cwd(),'./test/specs/login/*.js')
         ]
     },
     // Patterns to exclude.
