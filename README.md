@@ -55,7 +55,7 @@ To run the automated tests, follow these steps:
 **Run Test Suite**
 1. Update device capabilities in the wdio.conf.js file to reflect your actual device.
 
-2. Enter the command to run any of the test suites:
+2. Enter the command to run any of the UI test suites:
 ```bash
 npx wdio.conf.js --suite login
 ```
@@ -64,6 +64,11 @@ npx wdio.conf.js --suite logout
 ```
 ```bash
 npx wdio.conf.js --suite trading
+```
+
+3. Enter the command to run the API test suites:
+```bash
+npx wdio.conf.js --suite createAccount
 ```
 
 ## Project Structure
