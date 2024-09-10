@@ -38,6 +38,9 @@ exports.config = {
         trading: [
             projectPath.join(process.cwd(),'./test/specs/trading/*.js')
         ],
+        createAccount: [
+            projectPath.join(process.cwd(),'./test/specs/createAccount/*.js')
+        ],
         regression: [
             './test/specs/login/*.js',
             './test/specs/logout/*.js',

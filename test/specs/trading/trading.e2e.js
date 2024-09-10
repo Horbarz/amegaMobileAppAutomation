@@ -17,12 +17,14 @@ describe('Trading Test Suite', () => {
     });
 
     it('Test to ensure users can buy a stocks', async () => {
+        //On the home page click on a Buy button
        await $('//*[@text="Buy now"]').click()
        //Buy now button does not respond
 
     });
 
     it('Test to ensure users can sell a stocks', async () => {
+        //On the home page click on a Buy button
         await $('//*[@text="Sell now"]').click()
         //Sell now button does not respond
         
