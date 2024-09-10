@@ -20,7 +20,7 @@ Follow these steps to set up the project and run tests:
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Horbarz/amegaMobileAppAutomation.git`
+git clone https://github.com/Horbarz/amegaMobileAppAutomation.git
 cd amegaMobileAppAutomation
 ```
 
@@ -60,12 +60,18 @@ To run the automated tests, follow these steps:
 2. Enter the command to run any of the test suites:
 ```bash
 npx wdio.conf.js --suite login
+```
+```bash
 npx wdio.conf.js --suite logout
+```
+```bash
 npx wdio.conf.js --suite trading
 ```
 
 ## Project Structure
-- test/page: Contains page objects.
+- app/android: Contains the apk
+- fixtures: Contains the user credentials
+- test/page: Contains the page objects.
 - test/specs: Contains the spec files
 - package.json: Holds dependencies and scripts for the project.
 -  wdio.conf.js: WebDriver configuration file for setting up appium driver and capabilities.
